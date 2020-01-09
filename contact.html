@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="./assets/css/style.css" rel="stylesheet">
   <title>Document</title>
 </head>
+
 <body>
-  <!--Navbar-->
+  
   <nav class="navbar navbar-light navbar-1 white">
 
     <!-- Navbar brand -->
@@ -48,67 +52,87 @@
   <div class="container">
     <div class="row">
       <!-- <img class="bio-image" src="assets/images/profile-photo.jpg" alt="bio-pic"> -->
-      
-    
-    <div class="col-md-4">
-    <img class="img-fluid" src="assets/images/profile-photo.jpg" id="floated-text" alt="bio-pic">
-  </div>
+
+
+      <div class="col-md-4">
+        <img class="img-fluid" src="assets/images/profile-photo.jpg" id="floated-text" alt="bio-pic">
+      </div>
       <!-- <br> -->
       <div class="col-md-8">
         <form action="//submit.form" id="ContactUs100" method="post" onsubmit="return ValidateForm(this);">
           <script type="text/javascript">
-          function ValidateForm(frm) {
-          if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
-          if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
-          if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
-          if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
-          return true; }
+            function ValidateForm(frm) {
+              if (frm.Name.value == "") { alert('Name is required.'); frm.Name.focus(); return false; }
+              if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
+              if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
+              if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+              return true;
+            }
           </script>
           <table style="width:550px;border:0;" cellpadding="8" cellspacing="0">
-          <tr> <td>
-          <label for="Name">Name*</label>
-          </td> <td>
-          <input name="Name" type="text" maxlength="60" style="width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="PhoneNumber">Phone number</label>
-          </td> <td>
-          <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="FromEmailAddress">Email address*</label>
-          </td> <td>
-          <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
-          </td> </tr> <tr> <td>
-          <label for="Comments">Tell Me More*</label>
-          </td> <td>
-          <textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea>
-          </td> </tr> <tr> <td>
-          * - required fields
-          </td> <td>
-          <div style="float:right"><a href="" id="lnk100" title=""></a></div>
-          <input name="skip_Submit" type="submit" value="Submit" />
-          <!-- <script src="https://www.100forms.com/js/FORMKEY:FUS753QF8T2K/SEND:my@email.com" type="text/javascript"></script> -->
-          </td> </tr>
+            <tr>
+              <td>
+                <label for="Name">Name*</label>
+              </td>
+              <td>
+                <input name="Name" type="text" maxlength="60" style="width:250px;" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="PhoneNumber">Phone number</label>
+              </td>
+              <td>
+                <input name="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="FromEmailAddress">Email address*</label>
+              </td>
+              <td>
+                <input name="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Comments">Tell Me More*</label>
+              </td>
+              <td>
+                <textarea name="Comments" rows="7" cols="40" style="width:350px;"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                * - required fields
+              </td>
+              <td>
+                <div style="float:right"><a href="" id="lnk100" title=""></a></div>
+                <input name="skip_Submit" type="submit" value="Submit" />
+                <!-- <script src="https://www.100forms.com/js/FORMKEY:FUS753QF8T2K/SEND:my@email.com" type="text/javascript"></script> -->
+              </td>
+            </tr>
           </table>
-          </form>
+        </form>
       </div>
     </div>
-  
-      
-        
+
+
+
   </div>
   <!-- <br> -->
-  
-    
 
 
 
-    <!-- <div>
+
+
+  <!-- <div>
 
     </div> -->
-    <footer class="footer">
-      <p class="footertext">BioCentric Consulting LLC</p>
-    </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <footer class="footer">
+    <p class="footertext">BioCentric Consulting LLC</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
@@ -117,6 +141,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  
+
 </body>
+
 </html>

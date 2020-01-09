@@ -204,9 +204,9 @@ header {
 }
 
 .img-fluid {
-    /* max-width: 100%; */
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    width: 225px;
+    height: 225px;
     display: block;
     margin-left: -100px;
     /* margin-right: auto; */
@@ -229,6 +229,11 @@ nav {
 
 h2 {
     font-size: 25px;
+    font-family: 'Alata', sans-serif;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Alata', sans-serif;
 }
 
 .footer {
@@ -240,6 +245,9 @@ h2 {
     margin: auto;
     text-align: center;
     background-color: lavender;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    
 }
 
 .top-banner {
