@@ -1,7 +1,7 @@
 # BootStrapPortfolio
 ::INTRO::
 
-As the second deliverable in this course, I found it to be slightly less challenging than the first assignment. The reason being that when tasked with something I dont fuly comprehend, my natural incliniation is to assume that it is difficult. This assignment was simple in its requirement but still there were portions that I struggled with during the execution. Mainly, responsiveness of the page when collapsed. My photo did not reposition itself like the text and footer. This is a problem I will have to put more focus on going forward. Other than that, i found it to be straightforward.
+As the second deliverable in this course, I found it to be slightly less challenging than the first assignment. The reason being that when tasked with something I dont fully comprehend, my natural incliniation is to assume that it is difficult. This assignment was simple in its requirement but still there were portions that I struggled with during the execution. Mainly, responsiveness of the page when collapsed. My photo did not reposition itself like the text and footer. This is a problem I will have to put more focus on going forward. Other than that, i found it to be straightforward.
 
 ::ABOUT::
 
@@ -13,7 +13,7 @@ Utilizing bootstrap was an exercise in simplicity. unfortunately, I was not as v
 
 ::COLLABORATORS::
 
-My Tutor Sangeetha K was instrumental in acomplishing the task set before me 
+My Tutor Sangeetha K was instrumental in acomplishing the task set before me.
 
 ::CONTACT::
 
